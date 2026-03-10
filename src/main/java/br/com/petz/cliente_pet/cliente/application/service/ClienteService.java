@@ -8,5 +8,6 @@ import java.util.List;
 
 public interface ClienteService {
     ClienteResponse criaCliente(ClienteRequest clienteRequest);
+
     List<ClienteListResponse> buscaTodosClientes();
 }
